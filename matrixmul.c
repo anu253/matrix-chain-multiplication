@@ -34,7 +34,7 @@ int main()
 	scanf("%d",&size);
 	printf("Enter the array elements\n");
 	for(int i=0;i<size;i++)
-        scanf("%d",&arr[i]);
+              scanf("%d",&arr[i]);
 
 	printf("Min number of multiplications is : %d ",MatrixChainOrder(arr, size));
 
